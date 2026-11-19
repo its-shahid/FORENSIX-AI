@@ -15,7 +15,7 @@ const PORT = Number(process.env.PORT || 3000);
 const PYTHON_BACKEND_URL = (
   process.env.PYTHON_BACKEND_URL ||
   process.env.VITE_PYTHON_BACKEND_URL ||
-  'https://karaoke-collectors-look-keith.trycloudflare.com'
+  'https://forensix-ai-backend.onrender.com'
 )
   .trim()
   .replace(/\/+$/, '');

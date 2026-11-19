@@ -5,7 +5,7 @@ import type {
 } from '../types/forensics';
 
 const DEFAULT_BACKEND_URL =
-  'https://karaoke-collectors-look-keith.trycloudflare.com';
+'https://forensix-ai-backend.onrender.com';
 const ENV_BACKEND_URL = (
   import.meta.env.VITE_PYTHON_BACKEND_URL || DEFAULT_BACKEND_URL
 ).trim();
